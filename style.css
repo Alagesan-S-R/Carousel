@@ -1,0 +1,168 @@
+.owl-carousel{
+	width: 100%!important;
+}
+.row .item{
+	height: 35rem!important;
+}
+.sec-head p{
+    font-family: Amatic SC, sans-serif;
+}
+.e1{
+	background:rgba(0,0,0,0.4)url("img/events-1.jpg");
+    background-attachment:fixed;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: darken;
+	width: 100%!important;
+}
+.e2{
+	background: rgba(0,0,0,0.4)url("img/events-2.jpg");
+	background-attachment:fixed;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: darken;
+	width: 100%!important;
+}
+.e3{
+	background: rgba(0,0,0,0.4)url("img/events-3.jpg");
+	background-attachment:fixed;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: darken;
+	width: 100%!important;
+}
+.r1{
+	background: rgba(0,0,0,0.4)url("img/room-1.jpg");
+	background-attachment:fixed;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: darken;
+	width: 100%!important;
+}
+.r2{
+	background: rgba(0,0,0,0.4)url("img/room-2.jpg");
+	background-attachment:fixed;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: darken;
+	width: 100%!important;
+}
+.wed{
+	background: rgba(0,0,0,0.4)url("img/candle.jpg");
+	background-attachment:fixed;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: darken;
+	width: 100%!important;
+}
+.disco{
+	background: rgba(0,0,0,0.4)url("img/disco.jpg");
+	background-attachment:fixed;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: darken;
+	width: 100%!important;
+}
+h3{
+    padding-top: 330px!important;
+}
+.span{
+  color: #fff;
+  border-bottom: 2px solid red!important;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  position: relative;;
+}
+.description{
+	letter-spacing: 1;
+}
+.owl-carousel button.active span{
+	background: red!important;
+}
+.gallery .owl-carousel div.center img{
+	display: flex;
+	justify-content: center!important;
+	padding: 5px 5px;
+	border: 9px solid red!important;
+}
+
+@media(min-width:320px) and (max-width:960px) {
+	.gallery .owl-carousel div.center img{
+		border: none!important;
+		padding: 0!important;
+	}
+}
+.s-head{
+	margin-bottom: 40px;
+}
+.s-head p{
+    font-family: Amatic SC, sans-serif;
+}
+.testimonials .test-con{
+	padding-left: 30px!important;
+}
+.testimonials .test-con .col-6{
+    text-align: left;
+    padding-left: 15px!important;
+	border-left: 2px solid rgb(206, 18, 18);
+}
+.testimonials .test-con i{
+	font-size: 20px;
+	color: #f05656;
+	display: inline-block;
+}
+.testimonials .test-con p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 2px;
+}
+.testimonials .test-con h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700px;
+    font-size: 20px;
+    padding-bottom: 1px;
+    padding-top: 5px;
+}
+.testimonials .test-con span{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 500px;
+   font-size: 14px;
+   color: rgb(108, 117, 125);
+   padding-bottom: 5px;
+}
+.testimonials .rate i{
+	color: rgb(255, 193, 7);
+	font-size: 18px;
+	margin: 0px;
+}
+.testimonials .rate{
+	margin-top: 5px;
+}
+
+.testimonials .test-img{
+        margin-top: 10px;
+}
+.testimonials .test-img img{
+        margin: 0px 30px;
+}
+@media(min-width:320px) and (max-width:786px) {
+	.testimonials{
+		max-height: 600px!important;
+	}
+	.testimonials .col-6 , .col-3{
+               width: 100%;
+          }
+          .testimonials .test-img{
+          	   display: flex!important;
+          	   justify-content: center!important;
+               margin-top: 18px;
+          }
+          .testimonials .test-img img{
+          	   width: 75%;
+               margin: 0px 30px;
+          }
+}
+
